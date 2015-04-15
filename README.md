@@ -1,7 +1,11 @@
 # Parallelax
 NodeJS library that leverages NodeJS "async" API to execute multiple Blockspring functions in parallel.<br>
-For a more general version of this library that can be accessed from other languages (Python, Ruby, etc.), 
-please refer to https://api.blockspring.com/SaiWebApps/parallelax.
+A more general version of this library can be accessed at https://api.blockspring.com/SaiWebApps/parallelax.
+
+# Installation via NPM
+```
+npm install parallelax
+```
 
 # Usage
 Let us say that the user wants to execute 2+ Blockspring APIs parallely because she wants to amalgamate specific
@@ -14,7 +18,7 @@ Now, say that the Blockspring APIs in question are:
 To execute these 2 APIs in parallel and get back all of their results in 1 go:
 ```
 // API Key can optionally be specified as a constructor argument. Sign up for a Blockspring account to get an API key.
-var blockList = new BlockList();
+var blockList = require("parallelax");
 
 // Add input API blocks to BlockList.
 // First arg is API name, and second is inputs to the API.

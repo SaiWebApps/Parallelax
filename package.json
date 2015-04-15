@@ -1,6 +1,18 @@
 {
     "name": "parallelax",
-    "version": "0.0.2",
+    "author": {
+        "name": "Sairam Krishnan"
+    },
+    "main": "./lib/blockList.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SaiWebApps/Parallelax.git"
+    },
+    "_npmUser": {
+        "name": "sairambkrishnan",
+        "email": "sairambkrishnan@gmail.com"
+    },
+    "version": "0.1.0",
     "dependencies": {
         "blockspring": "0.0.6",
         "async": "*"
