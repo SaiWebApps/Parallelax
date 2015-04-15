@@ -1,7 +1,6 @@
 {
-    "name": "application-name",
-    "version": "0.0.1",
-    "private": true,
+    "name": "parallelax",
+    "version": "0.0.2",
     "dependencies": {
         "blockspring": "0.0.6",
         "async": "*"
