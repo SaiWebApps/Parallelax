@@ -80,3 +80,10 @@ the JSON object, and save it to the database.
 * https://github.com/blockspring/blockspring.js
 
 Check package.json.
+
+# My Versioning Methodology
+
+1.0.0
+1 (Major Number) = Update upon making a breaking change.
+0 (Minor Number) = Update after adding new features, fixing bugs, or making other "non-breaking" changes.
+0 (Patch Number) = Update after changing documentation or tests.
