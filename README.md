@@ -34,10 +34,10 @@ blockList.executeInParallel(function(allResults) {
 The output of the above code will be organized as follows:
 ```
 {
-    "google-image-search-first-result": {
+    "google-image-search-first-result": [{
         "image": "http://upload.wikimedia.org/wikipedia/commons/5/57/Chris_Rock_WE_2012_Shankbone.JPG"
-    },
-    "synonyms-crawler": {
+    }],
+    "synonyms-crawler": [{
         "0": [
             "belie"
         ],
@@ -56,12 +56,11 @@ The output of the above code will be organized as follows:
             ....
 
         ]
-    }
+    }]
 }
 ```
 
-In other words, the output will be a JSON object, where the key is the Blockspring API name, and the value will be that API's output
-for the supplied API inputs.
+In other words, the output will be a JSON object, where the key is the Blockspring API name, and the value will be a list containing that API's output for the supplied API inputs. The value is a list because the user might want to execute the same API multiple times (e.g., execute the Google-Image-Search API multiple times in parallel with different text-search inputs), so the API would then be mapped to all of its executions' outputs.
 
 You can find another example in test/test.js.
 
