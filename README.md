@@ -99,7 +99,7 @@ Check package.json.
 ----------
 My Versioning Methodology
 -------------
-1.0.0
-1 (Major Number) = Update upon making a breaking change.
-0 (Minor Number) = Update after adding new features, fixing bugs, or making other "non-breaking" changes.
+1.0.0<br>
+1 (Major Number) = Update upon making a breaking change.<br>
+0 (Minor Number) = Update after adding new features, fixing bugs, or making other "non-breaking" changes.<br>
 0 (Patch Number) = Update after changing documentation or tests.
