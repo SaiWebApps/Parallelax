@@ -1,9 +1,9 @@
 {
     "name": "parallelax",
-    "description": "Leverage NodeJS async API to execute multiple Blockspring functions in parallel.",
+    "description": "Execute multiple Blockspring functions in parallel.",
     "author": "Sairam Krishnan",
     "main": "./lib/blockList.js",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/SaiWebApps/Parallelax.git"
